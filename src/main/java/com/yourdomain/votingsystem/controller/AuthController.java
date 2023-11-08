@@ -19,7 +19,6 @@ public class AuthController {
 
     @PostMapping("/login")
     public ResponseEntity<LoginResponse> authenticateUser(@RequestBody LoginRequest loginRequest) {
-        // Implement login logic and return JWT or any other auth token
         LoginResponse loginResponse = authService.login(loginRequest);
         return ResponseEntity.ok(loginResponse);
     }

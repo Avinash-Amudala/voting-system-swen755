@@ -18,5 +18,4 @@ public class Role {
 
     private String name;
 
-    // Getters and Setters
 }

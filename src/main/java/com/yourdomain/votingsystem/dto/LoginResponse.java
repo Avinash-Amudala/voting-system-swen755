@@ -8,5 +8,4 @@ public class LoginResponse {
         this.token = token;
     }
 
-    // Getters and setters
 }

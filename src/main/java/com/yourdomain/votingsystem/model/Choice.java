@@ -25,5 +25,4 @@ public class Choice {
     @JoinColumn(name = "poll_id")
     private Poll poll;
 
-    // Getters and Setters
 }

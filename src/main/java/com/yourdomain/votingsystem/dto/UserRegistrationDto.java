@@ -5,17 +5,14 @@ public class UserRegistrationDto {
     private String email;
     private String password;
 
-    // Default constructor
     public UserRegistrationDto() {}
 
-    // Parameterized constructor
     public UserRegistrationDto(String username, String email, String password) {
         this.username = username;
         this.email = email;
         this.password = password;
     }
 
-    // Getters
     public String getUsername() {
         return username;
     }
@@ -28,7 +25,6 @@ public class UserRegistrationDto {
         return password;
     }
 
-    // Setters
     public void setUsername(String username) {
         this.username = username;
     }

@@ -21,6 +21,4 @@ public class Poll {
 
     @OneToMany(mappedBy = "poll", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Choice> choices;
-
-    // Getters and Setters...
 }

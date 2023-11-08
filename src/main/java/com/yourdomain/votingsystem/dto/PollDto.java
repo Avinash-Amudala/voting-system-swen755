@@ -7,5 +7,4 @@ public class PollDto {
     private String question;
     private List<ChoiceDto> choices;
 
-    // Getters and setters...
 }

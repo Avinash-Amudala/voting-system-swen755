@@ -9,23 +9,19 @@ public class PollServiceImpl implements PollService {
 
     @Override
     public void createPoll(PollDto pollDto) {
-        // Implement the logic to create a poll
     }
 
     @Override
     public void castVote(Long pollId, VoteDto voteDto) {
-        // Implement the logic for casting a vote
     }
 
     @Override
     public PollDto getPollById(Long pollId) {
-        // Implement the logic to retrieve a poll by ID
-        return new PollDto(); // Placeholder
+        return new PollDto();
     }
 
     @Override
     public Object getPollResults(Long pollId) {
-        // Implement the logic to get poll results
-        return new Object(); // Placeholder
+        return new Object();
     }
 }

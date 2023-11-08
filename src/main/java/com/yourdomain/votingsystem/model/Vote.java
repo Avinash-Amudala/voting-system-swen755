@@ -25,5 +25,4 @@ public class Vote {
     @JoinColumn(name = "choice_id")
     private Choice choice;
 
-    // Getters and Setters
 }

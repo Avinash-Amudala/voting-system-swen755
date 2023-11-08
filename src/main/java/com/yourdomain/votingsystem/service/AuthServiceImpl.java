@@ -12,7 +12,6 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public LoginResponse login(LoginRequest loginRequest) {
-        // Implement your login logic here and return a LoginResponse
         return new LoginResponse("dummy-token-for-now");
     }
 
@@ -20,7 +19,6 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public void logout(String token) {
-        // Add the token to the blacklist
         blacklistedTokens.add(token);
     }
 
@@ -28,5 +26,4 @@ public class AuthServiceImpl implements AuthService {
         return blacklistedTokens.contains(token);
     }
 
-    // ... other methods ...
 }

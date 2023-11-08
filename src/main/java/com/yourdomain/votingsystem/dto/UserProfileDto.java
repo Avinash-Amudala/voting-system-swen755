@@ -5,7 +5,6 @@ public class UserProfileDto {
     private String username;
     private String email;
 
-    // Standard getters and setters
 
     public Long getId() {
         return id;

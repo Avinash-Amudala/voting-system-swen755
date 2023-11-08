@@ -1,4 +1,4 @@
-/* General body styling */
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -7,14 +7,12 @@ body {
     background: #f4f4f4;
 }
 
-/* Container for content */
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-/* Header styling */
 .header {
     background: #333;
     color: #fff;
@@ -22,13 +20,11 @@ body {
     text-align: center;
 }
 
-/* Main content area */
 .main {
     padding: 20px;
-    min-height: 400px; /* adjust as needed */
+    min-height: 400px;
 }
 
-/* Voting button styling */
 .vote-btn {
     background: #5cb85c;
     color: white;
@@ -43,7 +39,6 @@ body {
     background: #4cae4c;
 }
 
-/* Table styling for voting options */
 .vote-table {
     width: 100%;
     margin-top: 20px;
@@ -62,4 +57,3 @@ body {
     color: #fff;
 }
 
-/* Add additional styles as needed */

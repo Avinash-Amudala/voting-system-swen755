@@ -4,7 +4,6 @@ public class ChoiceDto {
     private Long id;
     private String text;
 
-    // Getters
     public Long getId() {
         return id;
     }
@@ -13,7 +12,6 @@ public class ChoiceDto {
         return text;
     }
 
-    // Setters
     public void setId(Long id) {
         this.id = id;
     }
