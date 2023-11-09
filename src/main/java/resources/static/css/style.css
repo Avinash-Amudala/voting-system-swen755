@@ -56,4 +56,14 @@ body {
     background: #333;
     color: #fff;
 }
+.footer{
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
 
